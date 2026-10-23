@@ -9,14 +9,23 @@
   </head>
   <body>
     <h1><span id="score">0</span></h1>
-    <p><span id="clic_prod">0</span> / click</p>
-    <p><span id="auto_prod">0</span> / sec</p>
-    <button id="clic">CLIC</button>
-    <br />
-    <br />
-    <button id="achat_click">ACHETER CLICK (10)</button>
-    <br />
-    <br />
-    <button id="achat_auto">ACHETER AUTO (10)</button>
+    <p><span id="production">0</span> / sec</p>
+    <p>Multiplicateur : ×<span id="multiplicateur">1</span></p>
+    <div class="buy-amount" aria-label="Nombre d'améliorations à acheter">
+      <button type="button" data-buy-amount="1" aria-pressed="true">1</button>
+      <button type="button" data-buy-amount="10" aria-pressed="false">10</button>
+      <button type="button" data-buy-amount="100" aria-pressed="false">100</button>
+      <button type="button" data-buy-amount="max" aria-pressed="false">Max</button>
+    </div>
+    <div class="upgrade">
+      [<span id="compte_addition">0</span>]
+      <span>Production +1/sec</span>
+      <button id="achat_addition">ACHETER (10)</button>
+    </div>
+    <div class="upgrade">
+      [<span id="compte_multiplicateur">0</span>]
+      <span>Multiplicateur</span>
+      <button id="achat_multiplicateur">ACHETER (10)</button>
+    </div>
   </body>
 </html>

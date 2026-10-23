@@ -14,6 +14,23 @@ button {
     padding: 10px 20px;
     cursor: pointer;
 }
+.buy-amount {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 20px auto;
+}
+.buy-amount button[aria-pressed="true"] {
+    background: #fff;
+    color: #000;
+}
+.upgrade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 12px auto;
+}
 button:hover {
     background: #fff;
     color: #000;
