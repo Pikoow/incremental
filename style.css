@@ -1,0 +1,26 @@
+body { 
+    font-family: monospace;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    margin-top: 80px;
+}
+
+button {
+    font: inherit;
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover {
+    background: #fff;
+    color: #000;
+}
+button:disabled {
+    opacity: .3;
+    cursor: default;
+    background: #000;
+    color: #fff;
+}
